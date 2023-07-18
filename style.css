@@ -1,0 +1,273 @@
+
+
+:root {
+  --color-primary: #017BFF;
+  --color-light-blue: #268fff;
+  --color-medium-dark-blue: #003b7a;
+  --color-dark-blue: #001d3d;
+  --color-semi-dark-blue: #005dc1;
+  --color-background: #f4f4f4;
+  --color-text: #f4f4f4;
+  --color-light-gray: #aaaaaa;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .largeTitle {
+        font-size: 80px;
+    }
+    .largeTitle2 {
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .heading {
+        font-size: 35px;
+    }
+    .text {
+        margin-left: 86px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .largeText {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 25px;
+    }
+    .largeText2 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 38px;
+    }
+    .smallText {
+        font-size: 20px;
+    }
+    .titleImage {
+        width: 30%;
+        text-align: center;
+    }
+    hr {
+        border:1px solid #c4c4c4;
+        border-radius: 1px;
+        swidth: 60%;
+    }
+    .largeMargin {
+        margin-right: 25%;
+        margin-left: 25%
+    }
+    .smallMargin {
+        margin-right: 15%;
+        margin-left: 15%
+    }
+    .smallMargin-left {
+        margin-left: 15%
+    }
+    .questions {
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: left;
+    }
+    .horizontal-adaptable-small {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .horizontal-adaptable-divider {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .largeTitle {
+        font-size: 60px;
+    }
+    .largeTitle2 {
+        font-size: 50px;
+    }
+    .heading {
+        font-size: 35px;
+    }
+    .text {
+        margin-left: 86px;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .largeText {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 25px;
+    }
+    .largeText2 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 38px;
+    }
+    .smallText {
+        font-size: 20px;
+    }
+    .titleImage {
+        width: 50%;
+        text-align: center;
+    }
+    hr {
+        border: 1px solid #c4c4c4;
+        border-radius: 1px;
+        swidth: 70%;
+    }
+    .largeMargin {
+        margin-right: 15%;
+        margin-left: 15%
+    }
+    .smallMargin {
+        margin-right: 4%;
+        margin-left: 4%
+    }
+    .smallMargin-left {
+        margin-left: 8%
+    }
+    .questions {
+        margin-left:5%;
+        margin-right:5%;
+        text-align:left;
+    }
+    .horizontal-adaptable-small {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .horizontal-adaptable-divider {
+        display: block;
+    }
+}
+@media screen and (max-width: 410px) {
+    .largeTitle {
+        font-size: 50px;
+    }
+    .largeTitle2 {
+        font-size: 40px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .text {
+        margin-left: 86px;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .largeText {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+    .largeText2 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 34px;
+    }
+    .smallText {
+        font-size: 20px;
+    }
+    .titleImage {
+        width: 80%;
+        text-align: center;
+    }
+    hr {
+        border: 1px solid #c4c4c4;
+        border-radius: 1px;
+        swidth: 90%;
+    }
+    .largeMargin {
+        margin-right: 5%;
+        margin-left: 5%
+    }
+    .smallMargin {
+        margin-right: 1%;
+        margin-left: 1%
+    }
+    .smallMargin-left {
+        margin-left: 2%
+    }
+    .questions {
+        margin-left:2%;
+        margin-right:2%;
+        text-align:left;
+    }
+    .horizontal-adaptable-small {
+        display: block;
+    }
+    .horizontal-adaptable-divider {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .largeTitle {
+        font-size: 40px;
+    }
+    .largeText2 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 30px;
+    }
+}
+
+
+
+body {
+    font-family: -apple-system;
+    text-align: center;
+    zoom: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 0px;
+    background: var(--color-background);;
+}
+
+.marginSmall {
+    height: 10px;
+}
+
+.margin0 {
+    height: 5px;
+}
+
+.margin1 {
+    height: 20px;
+}
+
+.margin1-5 {
+    height: 26px;
+}
+
+.margin2 {
+    height: 50px;
+}
+
+.margin3 {
+    height: 100px;
+}
+
+.margin4 {
+    height: 200px;
+}
+
+.margin5 {
+    height: 300px;
+}
+
+.margin6 {
+    height: 400px;
+}
+
+.margin7 {
+    height: 500px;
+}
+
+.margin8 {
+    height: 600px;
+}
